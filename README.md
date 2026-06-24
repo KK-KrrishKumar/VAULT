@@ -33,7 +33,6 @@ Vault bridges the gap between raw, unstructured corporate filings and instant, a
 
 * **Frontend Framework**: React 18+ with Vite (blazing-fast asset compiling and low latency).
 * **Styling & Theme**: Tailwind CSS (custom modern light theme, slate cards, bold emerald highlight states, clean typography).
-* **AI Model Engine**: **Google Gemini API** (`@google/genai` TypeScript SDK) running server-side to generate structured JSON templates, compliance checklists, and summarize announcements.
 * **Database & Auth**: **Firebase (Firestore & Authentication)** for durable data sync, maintaining user watchlists, and secure analyst profiles.
 * **Animations**: **Framer Motion** for visual dial rotation physics, layout transitions, and fluid state changes.
 * **Vector Graphics**: Lucide React high-contrast icons for stock activity and regulatory statuses.
