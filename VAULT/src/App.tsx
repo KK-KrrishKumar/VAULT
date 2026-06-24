@@ -442,8 +442,9 @@ export default function App() {
           </div>
         </main>
 
-        <footer className="bg-white border-t border-slate-200 py-5 text-center text-[10px] text-slate-400 font-bold font-mono">
-          VAULT CAPITAL PLATFORM • COGNIZANT PRIVACY STANDARDS • SECURED BY GOOGLE FIREBASE
+        <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 font-bold font-mono space-y-1">
+          <div>VAULT CAPITAL PLATFORM • COGNIZANT PRIVACY STANDARDS • SECURED BY GOOGLE FIREBASE</div>
+          <div className="text-slate-800 tracking-wider uppercase pt-1">made by <span className="font-extrabold text-slate-950">KRRISH KUMAR</span></div>
         </footer>
       </div>
     );
@@ -494,10 +495,13 @@ export default function App() {
             </div>
 
             <div>
-              <div className="flex items-center gap-1.5">
+              <div className="flex items-center gap-1.5 flex-wrap">
                 <h1 className="font-sans text-base font-black tracking-tight text-slate-800 uppercase">Vault</h1>
                 <span className="bg-slate-100 text-slate-800 text-[9px] font-bold px-2 py-0.5 rounded border border-slate-200">
                   Terminal Active
+                </span>
+                <span className="bg-emerald-950 text-emerald-400 text-[9px] font-black px-2 py-0.5 rounded border border-emerald-800 shadow-sm animate-pulse tracking-wide">
+                  MADE BY KRRISH KUMAR
                 </span>
               </div>
               <p className="text-slate-400 text-[10px] font-bold">{currentUser.displayName || currentUser.email}</p>
@@ -852,6 +856,10 @@ export default function App() {
         </section>
 
       </main>
+
+      <footer className="w-full max-w-7xl mx-auto py-6 px-4 border-t border-slate-200 mt-8 text-center text-xs text-slate-500 font-medium">
+        <p>made by <strong>KRRISH KUMAR</strong></p>
+      </footer>
 
     </div>
   );
