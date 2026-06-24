@@ -1,6 +1,0 @@
-{
-  "name": "Vault",
-  "description": "An institutional-grade Indian capital markets workspace. Stream exchange filings, track standalone corporate ratios, and monitor real-time alerts tailored strictly to your personal watchlist.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
